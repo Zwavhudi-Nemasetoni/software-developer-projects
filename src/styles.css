@@ -1,4 +1,8 @@
 body {
+  background-image: url("images/image.jpg");
+  background-size: cover;
+  background-position: center;
+
   background-color: #f9f7fe;
   font-family: "Roboto", sans-serif;
 }
@@ -88,7 +92,7 @@ main {
 .weather-forecast {
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .weather-forecast-date {
